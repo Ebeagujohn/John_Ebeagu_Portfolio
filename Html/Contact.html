@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Ebeagu — AI Ethics Researcher & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav class="site-nav">
+      <div class="container nav_inner">
+        <a class="nav_logo" href="index.html">John <span>.</span></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Project.html">Projects</a></li>
+          <li><a href="Skills.html">Skills</a></li>
+          <li><a href="Writings.html">Writings</a></li>
+          <li><a href="Contact.html" class="active">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="page-hero">
+        <div class="container">
+          <p class="page-hero__label">Get in Touch</p>
+          <h1 class="page-hero__title">Contact</h1>
+          <p class="page-hero__desc">
+            Open to research collaborations, consulting opportunities, freelance
+            development work, and conversations about responsible AI.
+          </p>
+        </div>
+      </div>
+      <section class="section">
+        <div class="container">
+          <div
+            style="
+              display: grid;
+              grid-template-columns: 3fr 2fr;
+              gap: 4rem;
+              align-items: start;
+            "
+          >
+            <!-- FORM -->
+            <div>
+              <p class="section_label">Send a Message</p>
+              <h2 style="margin-bottom: 2rem">Let's talk.</h2>
+              <form action="#" method="POST">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <select id="subject" name="subject">
+                    <option value="">Select a topic…</option>
+                    <option value="collaboration">
+                      Research Collaboration
+                    </option>
+                    <option value="consulting">AI Ethics Consulting</option>
+                    <option value="development">Development Project</option>
+                    <option value="speaking">Speaking / Content</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="What's on your mind?"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary">
+                  Send Message →
+                </button>
+              </form>
+            </div>
+
+            <!-- CONTACT INFO -->
+            <aside>
+              <p class="section_label">Direct Contact</p>
+              <h2 style="margin-bottom: 1.5rem; font-size: 1.4rem">
+                Other Ways to Connect
+              </h2>
+
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  gap: 1.25rem;
+                  margin-bottom: 2rem;
+                "
+              >
+                <div style="display: flex; gap: 1rem; align-items: flex-start">
+                  <span style="font-size: 1.25rem">📧</span>
+                  <div>
+                    <p
+                      style="
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                        letter-spacing: 0.07em;
+                        text-transform: uppercase;
+                        color: var(--clr-accent);
+                        margin-bottom: 0.2rem;
+                      "
+                    >
+                      Email
+                    </p>
+                    <a
+                      href="mailto:ebeagujohn6@gmail.com"
+                      class="text-muted"
+                      style="font-size: 0.9rem"
+                      >ebeagujohn6@gmail.com</a
+                    >
+                  </div>
+                </div>
+
+                <div style="display: flex; gap: 1rem; align-items: flex-start">
+                  <span style="font-size: 1.25rem">💼</span>
+                  <div>
+                    <p
+                      style="
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                        letter-spacing: 0.07em;
+                        text-transform: uppercase;
+                        color: var(--clr-accent);
+                        margin-bottom: 0.2rem;
+                      "
+                    >
+                      LinkedIn
+                    </p>
+                    <a href="#" class="text-muted" style="font-size: 0.9rem"
+                      >linkedin.com/in/johnebeagu</a
+                    >
+                  </div>
+                </div>
+
+                <div style="display: flex; gap: 1rem; align-items: flex-start">
+                  <span style="font-size: 1.25rem">🐙</span>
+                  <div>
+                    <p
+                      style="
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                        letter-spacing: 0.07em;
+                        text-transform: uppercase;
+                        color: var(--clr-accent);
+                        margin-bottom: 0.2rem;
+                      "
+                    >
+                      GitHub
+                    </p>
+                    <a href="#" class="text-muted" style="font-size: 0.9rem"
+                      >github.com/johnebeagu</a
+                    >
+                  </div>
+                </div>
+
+                <div style="display: flex; gap: 1rem; align-items: flex-start">
+                  <span style="font-size: 1.25rem">📍</span>
+                  <div>
+                    <p
+                      style="
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                        letter-spacing: 0.07em;
+                        text-transform: uppercase;
+                        color: var(--clr-accent);
+                        margin-bottom: 0.2rem;
+                      "
+                    >
+                      Location
+                    </p>
+                    <p class="text-muted" style="font-size: 0.9rem">
+                      Kano, Nigeria
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr class="divider" />
+
+              <div class="card">
+                <p class="section__label mb-1">I'm open to</p>
+                <ul
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                    font-size: 0.9rem;
+                  "
+                >
+                  <li>✓ AI ethics research partnerships</li>
+                  <li>✓ Responsible AI consulting</li>
+                  <li>✓ Freelance web development</li>
+                  <li>✓ Technical writing & content</li>
+                  <li>✓ Speaking engagements</li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__copy">&copy; 2026 John Ebeagu. All rights reserved</p>
+        <nav class="footer__links">
+          <a href="About.html">About</a>
+          <a href="Project.html">Projects</a>
+          <a href="Writings.html">Writing</a>
+          <a href="Contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
